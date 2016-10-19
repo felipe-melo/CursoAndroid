@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Curso Android</string>
+
+    <string name="logo">Logo da empresa</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="conf_senha">Confirmação de Senha</string>
+    <string name="logar">Logar</string>
+    <string name="cadastrar">Cadastrar</string>
+
+    <string name="cad_foto">Foto de perfil</string>
+    <string name="cad_nome">Nome</string>
+    <string name="cad_endereco">Endereço</string>
+    <string name="cad_cep">CEP</string>
+    <string name="cad_bairro">Bairro</string>
+    <string name="cad_data_nasc">Data de Nascimento</string>
+    <string name="cad_cidade">Cidade</string>
+    <string name="cad_estado">Estado</string>
+    <string name="cad_numero">Número</string>
+    <string name="cad_senha">Senha</string>
+    <string name="cad_conf_senha">Confirmação de senha</string>
+    <string name="cad_complemento">Complemento</string>
+
+    <string name="prin_editar">Editar Perfil</string>
+    <string name="prin_sair">Sair</string>
+    <string name="prin_ola">Olá,</string>
+
+</resources>

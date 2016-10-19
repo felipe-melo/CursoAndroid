@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    tools:context=".atividades.NovoCadastro">
+
+    <ScrollView android:id="@+id/login_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="120dp"
+                android:src="@drawable/profile"
+                android:adjustViewBounds="true"
+                android:onClick="openCamera"
+                android:contentDescription="@string/cad_foto" />
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_marginTop="20dp"
+                style="@style/caixaDeTexto"
+                android:inputType="textPersonName"
+                android:hint="@string/cad_nome"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                style="@style/caixaDeTexto"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"/>
+
+            <EditText
+                android:id="@+id/edtDataNascimento"
+                style="@style/caixaDeTexto"
+                android:inputType="date"
+                android:hint="@string/cad_data_nasc"/>
+
+            <EditText
+                android:id="@+id/edtCep"
+                style="@style/caixaDeTexto"
+                android:inputType="phone"
+                android:hint="@string/cad_cep"/>
+
+            <EditText
+                android:id="@+id/edtEndereco"
+                style="@style/caixaDeTexto"
+                android:inputType="text"
+                android:hint="@string/cad_endereco"/>
+
+            <EditText
+                android:id="@+id/edtNumero"
+                style="@style/caixaDeTexto"
+                android:inputType="number"
+                android:hint="@string/cad_numero"/>
+
+            <EditText
+                android:id="@+id/edtComplemento"
+                style="@style/caixaDeTexto"
+                android:inputType="textCapWords"
+                android:hint="@string/cad_complemento"/>
+
+            <EditText
+                android:id="@+id/edtEstado"
+                style="@style/caixaDeTexto"
+                android:inputType="textCapWords"
+                android:hint="@string/cad_estado"/>
+
+            <EditText
+                android:id="@+id/edtCidade"
+                style="@style/caixaDeTexto"
+                android:inputType="textCapWords"
+                android:hint="@string/cad_cidade"/>
+
+            <EditText
+                android:id="@+id/edtBairro"
+                style="@style/caixaDeTexto"
+                android:inputType="textCapWords"
+                android:hint="@string/cad_bairro"/>
+
+            <EditText
+                android:id="@+id/edtSenha"
+                style="@style/caixaDeTexto"
+                android:inputType="textPassword"
+                android:hint="@string/cad_senha"/>
+
+            <EditText
+                android:id="@+id/edtConfSenha"
+                style="@style/caixaDeTexto"
+                android:inputType="textPassword"
+                android:hint="@string/cad_conf_senha"/>
+
+            <Button
+                android:id="@+id/btCadastar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/cadastrar"
+                android:onClick="cadastrar"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
